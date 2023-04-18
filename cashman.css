@@ -1,0 +1,447 @@
+/*Contact section*/
+.Contact-Me{
+    max-width: 100%;
+    margin: 0 auto;
+   
+   background-color: #f5f5f5;
+}
+.formlabel{
+    font-size: 1.2em;
+    color: #f5f5f5;
+   align-self: flex-start;
+}
+.myContactForm{
+    background-color: #009f75;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 20px;
+    display: flex;
+    gap: 0.5em;
+    max-width: 750px;
+    margin-top: 2em;
+   overflow: hidden;
+}
+.contactImage-wrapper{
+  width: 50%;
+     height: auto;
+   
+}
+.contact-Image{
+    object-fit: cover;
+    object-position: 100%;
+    height: 90%;
+  
+  
+}
+.Contactform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ContactHeader{
+    text-align: center;
+    font-size: 3em;
+      color: #f5f5f5;
+      position: relative;
+      margin-bottom: 0.1em;
+}
+.ContactHeader::after{
+    content: '';
+    background-color: #f5f5f5;
+    width: 120px;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 155px;
+    
+}
+
+
+.Contact-Subtitle{
+    text-align: center;
+    font-style: italic;
+    color: #f5f5f5;
+}
+
+.name-wrapper,.email-wrapper{
+    width: 100%;
+    max-width: 400px;
+}
+.namefield,.emailfield{
+    width: 100%;
+    padding: 0.6em;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5f5f5;
+    outline-color: #337e5f;
+    font-size:1.1em;
+    margin-bottom: 0.5em;
+
+}
+.messagefield{
+    border-radius: 5px;
+    border: 1px solid #337e5f;
+    outline-color: #337e5f;
+    width: 100%;
+    font-size: 1.4em;
+}
+.emailfield{
+
+}
+.SendFormBtn{
+    padding: 0.45em 2.5em;
+    background-color: #f5f5f5;
+    color: #009f75;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+.messageSent{
+    font-size: 1.3em;
+    color: #f5f5f5;
+    transform: translateY(50px);
+    opacity: 0;
+    transition:opacity 250ms transform 200ms ;
+    overflow: hidden;
+    /* animation:Popin 1000ms ease-in infinite ; */
+   
+
+}
+
+/*Contact Form media query*/
+@media(max-width:920px){
+    .Contactform{
+        width: 100%;
+    }
+    .Contact-Me{
+        max-width: 100%;
+    }
+    .name-wrapper,.email-wrapper{
+        width: 90%;
+        
+    }
+
+    .myContactForm{
+        width: 60%;
+    }
+}
+
+@media(max-width:500px){
+.myContactForm{
+    width: 100%;
+}
+}
+
+@media(max-width:1220px){
+    .myContactForm{
+        flex-direction: column;
+    }
+    .contactImage-wrapper{
+        width: 100%;
+    }
+    .contact-Image{
+        width: 100%;
+        aspect-ratio: 3/1;
+    }
+}
+
+
+
+*Contact section*/
+
+.Contact-Me{
+
+    max-width: 100%;
+
+    margin: 0 auto;
+
+   
+
+   background-color: #f5f5f5;
+
+}
+
+.formlabel{
+
+    font-size: 1.2em;
+
+    color: #f5f5f5;
+
+   align-self: flex-start;
+
+}
+
+.myContactForm{
+
+    background-color: #009f75;
+
+    width: 50%;
+
+    margin: 0 auto;
+
+    padding: 1em;
+
+    border-radius: 20px;
+
+    display: flex;
+
+    gap: 0.5em;
+
+    max-width: 750px;
+
+    margin-top: 2em;
+
+   overflow: hidden;
+
+}
+
+.contactImage-wrapper{
+
+  width: 50%;
+
+     height: auto;
+
+   
+
+}
+
+.contact-Image{
+
+    object-fit: cover;
+
+    object-position: 100%;
+
+    height: 90%;
+
+ 
+
+ 
+
+}
+
+.Contactform{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.ContactHeader{
+
+    text-align: center;
+
+    font-size: 3em;
+
+      color: #f5f5f5;
+
+      position: relative;
+
+      margin-bottom: 0.1em;
+
+}
+
+.ContactHeader::after{
+
+    content: '';
+
+    background-color: #f5f5f5;
+
+    width: 120px;
+
+    height: 5px;
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 155px;
+
+   
+
+}
+
+ 
+
+.Contact-Subtitle{
+
+    text-align: center;
+
+    font-style: italic;
+
+    color: #f5f5f5;
+
+}
+
+ 
+
+.name-wrapper,.email-wrapper,.number-wrapper,.years-wrapper{
+
+    width: 100%;
+
+    max-width: 400px;
+
+}
+
+.processingfeefield,.yearsfield,.interestfield,.processfeefield,.principalfield{
+
+    width: 100%;
+
+    padding: 0.6em;
+
+    border-radius: 5px;
+
+    border: none;
+
+    background-color: #f5f5f5;
+
+    outline-color: #337e5f;
+
+    font-size:1.1em;
+
+    margin-bottom: 0.5em;
+
+ 
+
+}
+
+.messagefield{
+
+    border-radius: 5px;
+
+    border: 1px solid #337e5f;
+
+    outline-color: #337e5f;
+
+    width: 100%;
+
+    font-size: 1.4em;
+
+}
+
+.emailfield{
+
+ 
+
+}
+
+.SendFormBtn{
+
+    padding: 0.45em 2.5em;
+
+    background-color: #f5f5f5;
+
+    color: #009f75;
+
+    font-size: 1em;
+
+    font-weight: bold;
+
+    border-radius: 5px;
+
+    border: none;
+
+    margin-bottom: 0.5em;
+
+    cursor: pointer;
+
+}
+
+.result{
+
+    font-size: 1.3em;
+
+    color: #f5f5f5;
+
+
+    transition:opacity 250ms transform 200ms ;
+
+    overflow: hidden;
+
+    /* animation:Popin 1000ms ease-in infinite ; */
+
+   
+
+ 
+
+}
+
+ 
+
+/*Contact Form media query*/
+
+@media(max-width:920px){
+
+    .Contactform{
+
+        width: 100%;
+
+    }
+
+    .Contact-Me{
+
+        max-width: 100%;
+
+    }
+
+    .name-wrapper,.email-wrapper{
+
+        width: 90%;
+
+       
+
+    }
+
+ 
+
+    .myContactForm{
+
+        width: 60%;
+
+    }
+
+}
+
+ 
+
+@media(max-width:500px){
+
+.myContactForm{
+
+    width: 100%;
+
+}
+
+}
+
+ 
+
+@media(max-width:1220px){
+
+    .myContactForm{
+
+        flex-direction: column;
+
+    }
+
+    .contactImage-wrapper{
+
+        width: 100%;
+
+    }
+
+    .contact-Image{
+
+        width: 100%;
+
+        aspect-ratio: 3/1;
+
+    }
+
+}
